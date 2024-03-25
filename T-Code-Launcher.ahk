@@ -116,7 +116,7 @@ openSAPTransaction(transaction, windowName:=false, newWindow:=false){
     }
 
 openSAPTransactionManually(transaction, windowName:=false, newWindow:=false){
-    ;Opens the specified T-CODE and waits for the window to have loaded. Optional third parameter 'new' to create a new session. Note if you create a new session you'll have to refresh the connection.
+    ;Opens the specified T-CODE and waits for the window to have loaded. Optional third parameter 'new' to create a new session.
     
     if !WinActive("ahk_exe saplogon.exe"){
         WinActivate ("ahk_exe saplogon.exe")
