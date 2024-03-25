@@ -43,6 +43,7 @@ Edit lines 4 and 86 of the script.
 1.	Line 4 creates the hotkey that assigns capslock to the t-code launcher. Here you can change capslock to any key you like.
    
 3.	Line 86 detects whether you are holding down capslock. If you are, it opens the transaction in a new window. Here you can change capslock to any key you like.
+
 Remember when choosing a hotkey that you might still want to be able to use this key in SAP GUI.
 
 	
