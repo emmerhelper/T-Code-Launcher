@@ -134,3 +134,7 @@ PressInSequence(keys,delay){
         Sleep delay
     }
 }
+
+;; Stop capslock activating in the pop-up GUI
+#HotIf WinActive("ahk_exe autohotkey64.exe","Transaction")
+CapsLock::SetCapsLockState("Off")
